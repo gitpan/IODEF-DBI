@@ -1,0 +1,22 @@
+--- #YAML:1.0
+name:               IODEF-DBI
+version:            0.01_1
+abstract:           Perl extension for blah blah blah
+author:
+    - Wes Young <wes@barely3am.com>
+license:            unknown
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Class::DBI:  XML::IODEF
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.50
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4

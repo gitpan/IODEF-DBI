@@ -1,0 +1,9 @@
+Revision history for Perl extension IODEF::DBI.
+
+0.01_1 2010-01-05
+    - Initial development release
+
+0.01  Tue Jan  5 16:30:28 2010
+	- original version; created by h2xs 1.23 with options
+		-A -X IODEF::DBI
+
