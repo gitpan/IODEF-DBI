@@ -30,13 +30,19 @@ DEPENDENCIES
 
 This module requires these other modules and libraries:
 
-  blah blah blah
+Class::DBI
+XML::IODEF
+OSSP::uuid
+DateTime
+XML::LibXML
+Net::Abuse::Utils
+LWP::Simple
+
 
 COPYRIGHT AND LICENCE
 
-Put the correct copyright and licence information here.
-
 Copyright (C) 2010 by Wes Young
+http://code.google.com/p/perl-iodef-dbi/
 
 See LICENSE file
 

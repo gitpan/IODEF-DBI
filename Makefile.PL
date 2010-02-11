@@ -6,8 +6,13 @@ WriteMakefile(
     NAME              => 'IODEF::DBI',
     VERSION_FROM      => 'lib/IODEF/DBI.pm', # finds $VERSION
     PREREQ_PM         => {
-        Class::DBI,
-        XML::IODEF,
+        Class::DBI          => undef,
+        XML::IODEF          => undef,
+        OSSP::uuid          => undef,
+        DateTime            => undef,
+        XML::LibXML         => undef,
+        Net::Abuse::Utils   => undef,
+        LWP::Simple         => undef,
     }, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/IODEF/DBI.pm', # retrieve abstract from module

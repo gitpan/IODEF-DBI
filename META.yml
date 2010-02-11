@@ -1,7 +1,7 @@
 --- #YAML:1.0
 name:               IODEF-DBI
-version:            0.01_1
-abstract:           Perl extension for blah blah blah
+version:            0.01_3
+abstract:           Perl extension designed to create a simple storeage and indexing framework for XML based IODEF messages. 
 author:
     - Wes Young <wes@barely3am.com>
 license:            unknown
@@ -11,7 +11,13 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Class::DBI:  XML::IODEF
+    Class::DBI:         ~
+    DateTime:           ~
+    LWP::Simple:        ~
+    Net::Abuse::Utils:  ~
+    OSSP::uuid:         ~
+    XML::IODEF:         ~
+    XML::LibXML:        ~
 no_index:
     directory:
         - t

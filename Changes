@@ -1,5 +1,15 @@
 Revision history for Perl extension IODEF::DBI.
 
+0.01_3 2010-02-11
+    - rewrote schema architecture to store and index xml instead of using a rigid table struct
+    - re-worked example scripts
+    - created "pipe" delimited output feed example
+
+0.01_2 2010-01-06
+    - Added additional data bits
+    - added other required dependency classes
+    - changed up the iodef.sql a bit to use pgsql INHERIT in places where it made sense
+
 0.01_1 2010-01-05
     - Initial development release
 

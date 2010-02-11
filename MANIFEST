@@ -1,19 +1,15 @@
 Changes
 examples/dshield.pl
+examples/feed.pl
 examples/iodef.pl
 examples/spamhaus.pl
+examples/sshbl.pl
 examples/zeus_tracker.pl
-lib/IODEF/Address.pm
 lib/IODEF/DBI.pm
-lib/IODEF/EventData.pm
-lib/IODEF/Flow.pm
 lib/IODEF/Idx_Address_Asn.pm
 lib/IODEF/Idx_Address_Inet.pm
-lib/IODEF/Incident.pm
-lib/IODEF/IncidentID.pm
-lib/IODEF/Node.pm
-lib/IODEF/Service.pm
-lib/IODEF/System.pm
+lib/IODEF/Idx_IncidentID.pm
+lib/IODEF/Message.pm
 LICENSE
 Makefile.PL
 MANIFEST			This list of files
