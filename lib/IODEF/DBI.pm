@@ -5,7 +5,7 @@ use strict;
 use warnings;
 use base 'Class::DBI';
 
-our $VERSION = '0.01_3';
+our $VERSION = '0.01_4';
 
 # Preloaded methods go here.
 

@@ -9,7 +9,6 @@ use Regexp::Common::net;
 use IODEF::Idx_Address_Inet;
 use IODEF::Idx_Address_Asn;
 use IODEF::Idx_IncidentID;
-use IODEF::Idx_Confidence;
 use OSSP::uuid;
 
 __PACKAGE__->table('messages');

@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               IODEF-DBI
-version:            0.01_3
+version:            0.01_4
 abstract:           Perl extension designed to create a simple storeage and indexing framework for XML based IODEF messages. 
 author:
     - Wes Young <wes@barely3am.com>
